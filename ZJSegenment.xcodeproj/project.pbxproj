@@ -13,6 +13,7 @@
 		04E9D78E1CFA964800A39E9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E9D78C1CFA964800A39E9C /* Main.storyboard */; };
 		04E9D7901CFA964800A39E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E9D78F1CFA964800A39E9C /* Assets.xcassets */; };
 		04E9D7931CFA964800A39E9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E9D7911CFA964800A39E9C /* LaunchScreen.storyboard */; };
+		04E9D79D1CFA966900A39E9C /* ZJSegementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E9D79C1CFA966900A39E9C /* ZJSegementView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		04E9D78F1CFA964800A39E9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E9D7921CFA964800A39E9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E9D7941CFA964800A39E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E9D79B1CFA966900A39E9C /* ZJSegementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSegementView.h; sourceTree = "<group>"; };
+		04E9D79C1CFA966900A39E9C /* ZJSegementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSegementView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		04E9D7821CFA964800A39E9C /* ZJSegenment */ = {
 			isa = PBXGroup;
 			children = (
+				04E9D79A1CFA966900A39E9C /* ZJSegementView */,
 				04E9D7861CFA964800A39E9C /* AppDelegate.h */,
 				04E9D7871CFA964800A39E9C /* AppDelegate.m */,
 				04E9D7891CFA964800A39E9C /* ViewController.h */,
@@ -77,6 +81,15 @@
 				04E9D7841CFA964800A39E9C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E9D79A1CFA966900A39E9C /* ZJSegementView */ = {
+			isa = PBXGroup;
+			children = (
+				04E9D79B1CFA966900A39E9C /* ZJSegementView.h */,
+				04E9D79C1CFA966900A39E9C /* ZJSegementView.m */,
+			);
+			path = ZJSegementView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +118,7 @@
 		04E9D7781CFA964800A39E9C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZJ;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "李赵杰";
 				TargetAttributes = {
@@ -151,6 +165,7 @@
 			files = (
 				04E9D78B1CFA964800A39E9C /* ViewController.m in Sources */,
 				04E9D7881CFA964800A39E9C /* AppDelegate.m in Sources */,
+				04E9D79D1CFA966900A39E9C /* ZJSegementView.m in Sources */,
 				04E9D7851CFA964800A39E9C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

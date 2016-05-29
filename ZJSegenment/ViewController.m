@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ZJSegementView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+     ZJSegementView * segen = [[ZJSegementView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width,50    )];
+    segen.ItemWidth = 70;
+    segen.titleArray = @[@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"11"];
+    segen.titleColor = [UIColor blueColor];
+    [self.view addSubview:segen];
+    
 }
 
 - (void)didReceiveMemoryWarning {
